@@ -83,8 +83,12 @@ WSGI_APPLICATION = 'fpt_hub.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE':'django.db.backends.postgresql_psycopg2',
+        'NAME':'d53t89l0flu6vs',
+        'USER':'zdwzbwflhpzqes',
+        'PASSWORD':'97a8838dc987581311808ba3e084e73bcaa0d1f86f52ab7faa059ecf71fd3608',
+        'HOST':'ec2-54-161-255-125.compute-1.amazonaws.com',
+        'PORT':'5432',
     }
 }
 
