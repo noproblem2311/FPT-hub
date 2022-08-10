@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-i&_-%1tsbzq$-h&&1#4_s=-%lv$q(@4b6fz)1-5-%drw9l!8-l
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['forum-fpt.herokuapp.com']
+ALLOWED_HOSTS = ['fpthub.herokuapp.com']
 
 # Application definition
 
